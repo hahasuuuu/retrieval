@@ -70,7 +70,7 @@
 | title | 分类 | 解决问题 | 备注 |
 | :---    | :---:  | :--- | :--- |
 |[2018]TDM [2019]JTM [2020]OTM [2021]POEEM [2022]二向箔| 架构 | 召回常用embedding-based的方法，但是常用的召回方式限制了模型的表达能力 | [2018]TDM/[2019]JTM/[2020]OTM使用EM的方式联合训练模型和Index，[2021]POEEM提出感知训练的PQ index，[2022]二向箔在模型训练中加入auxiliary loss使得训练出来的embedding仍可以使用两段式的方法构建Index |
-|[2019]MIND [2019]SDM [2020]ComiRec [2021]SINE [2021]MGDSPR [2021]PDN [2022]ADI [2022]XDM | 表征 | 召回模型在捕捉用户历史行为序列与target item上表现欠佳 | 将推荐建模为预测用户的下一个行为。[2019]SDM探索长短期用户行为表征，[2021]MGDSPR为搜索提供了embedding-based召回解决方案，[2021]PDN使用多层网络发掘用户和可能相关的item之间的相关度，[2019]MIND使用胶囊学习用户多兴趣embedding，[2019]SINE探索不基于胶囊的多兴趣embedding，[2020]ComiRec和[2022]ADI关心cross-domain Rec问题，[2022]XDM认为曝光未点击的item的相关度介于点击与完全随机的item之间，使用metric learning将未点击item的embedding映射到合理的向量空间取得优于SDM的召回效果 |
+|[2019]MIND [2019]SDM [2020]ComiRec [2021]SINE [2021]MGDSPR [2021]PDN [2022]ADI [2022]XDM | 表征 | 召回模型在捕捉用户兴趣多样性上表现欠佳 | 将推荐建模为预测用户的下一个行为。[2019]SDM探索长短期用户行为表征，[2021]MGDSPR为搜索提供了embedding-based召回解决方案，[2021]PDN使用多层网络发掘用户和可能相关的item之间的相关度，[2019]MIND使用胶囊学习用户多兴趣embedding，[2019]SINE探索不基于胶囊的多兴趣embedding，[2020]ComiRec和[2022]ADI关心cross-domain Rec问题，[2022]XDM认为曝光未点击的item的相关度介于点击与完全随机的item之间，使用metric learning将未点击item的embedding映射到合理的向量空间取得优于SDM的召回效果 |
 |[2019]IntentGC [2020]M2GRL [2020]Swing&Surprise [2021]HetMatch [2022]DC-GNN [2023]CC-GCN| 特征 | 召回环节数据稀疏 |[2019]IntentGC不仅使用点击，而且使用auxiliary关系挖掘更丰富的信息，用GCN学习heterogeneous relations，[2020]Swing&Surprise提出一个进使用用户行为和类目信息来进行相死品和搭配品推荐的I2I推荐方法，[2021]HetMatch用于为B端广告主推送keyword，把keyword，ad，item当作node以点击关系建立异构图，[2022]DC-GNN以HetMatch类似的方式建立异构图，在推理网络结构轻量化和预训练上做了创新，[2023]CC-GCN使用全新的方式构建异构图，更加能抓住语意信息，并且使用虚构数据提高模型对长尾query以及长尾item的召回效果|
 
 <a id="aliprerank"></a>
