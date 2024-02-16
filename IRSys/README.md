@@ -2,45 +2,52 @@
 主要整理业界与学术界的information retrieval方法，聚焦match/pre-rank。
 | period of surveyed | number of papers| companies |  Match-related paper num | pre-rank related paper num|
 | :---    | :---:  | :--- | :--- | :--- |
-| 2021-2023| 51 | Alibaba, ByteDance, Facebook, Google, Baidu, Weixin, Pinterest, Shoppe, Amazon, etc.| 39 | 12 |
+| 2021-2023| 92 | Alibaba, ByteDance, Facebook, Google, Baidu, Weixin, Pinterest, Shoppe, Amazon, etc.| 79 | 12 |
 
 **注**：pre-rank里面包含了一些多目标的论文，即可用于精排也可用于粗排。
 
 会议分布
 |venue name| number of papers |
 | :---    | :---:  |
-| KDD| 10 |
-| RecSys|3|
-| CIKM| 16|
-| SIGIR| 6|
+| KDD| 19 |
+| RecSys|4|
+| CIKM| 21|
+| SIGIR| 12|
 | VLDB|3|
-| WSDM|2|
-| WWW|1|
-| NIPS| 1|
+| WSDM|4|
+| WWW|14|
+| NIPS| 3|
 | ICLR|1|
 | ICML| 1|
 | SIGKDD| 1|
-| AAAI| 1 |
+| AAAI| 2 |
 | DLP-KDD|1|
+|IJCAI| 1|
 | DSAFAA|1|
 | arXiv|3|
 
 公司分布
 |venue name| number of papers |
 | :---    | :---:  |
-| Alibaba| 27 |
+| Alibaba| 30 |
 | ByteDance|2|
-| Facebook(Meta)| 2|
-| Google| 3|
-| Baidu|2|
-| Tencent(Weixin)|2|
-| Pinterest|1|
+| Facebook(Meta)| 4|
+| Google| 5|
+| Baidu|3|
+| Tencent(Weixin)|4|
+| Pinterest|6|
 | Shoppe|2 |
 | Twitter| 2|
-| Amazon|1|
+| Amazon|4|
 | SalesForce|1|
-| Huawei|1|
-|academia|5|
+| Huawei|4|
+|microsoft| 4|
+|JD| 3|
+|Meituan|2|
+|Adobe|1|
+|Kuaishou| 1 |
+|NetEease|1|
+|academia|12|
 
 **注**:本次survey重点考察近三年的技术发展，但也会根据需要callback这些技术的前身
 # Table of Contents
@@ -62,7 +69,7 @@
 ## Alibaba Summary
 | Company | Stage | period of surveyed | number of papers |
 | :---    | :---  | :---               | :---             |
-| alibaba | match | 2021-2023          | 19   |
+| alibaba | match | 2021-2023          | 22   |
 | alibaba | pre-rank | 2021-2023          |      8       |
 
 <a id="alimatch"></a>
@@ -86,7 +93,7 @@
 **注** 本次survey重点考察近三年的技术发展，但也会根据需要callback这些技术的前身
 | Stage | period of surveyed | number of papers |
 | :---  | :---               | :---             |
-| match | 2021-2023          | 20   |
+| match | 2021-2023          | 57   |
 | pre-rank | 2021-2023          | 4   |
 
 <a id="othermatch"></a>
